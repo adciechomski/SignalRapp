@@ -1,0 +1,12 @@
+﻿@*@model SignalRMVCSolution.Models.DummyDataCls*@
+@model IEnumerable<DummyDataCls>
+
+    <h1>Single record for instrument number: @Model.First().Id;</h1>
+
+    <br />
+    @Model.First().Ticker; at price @Model.First().Price; with Benchmark @Model.First().Benchmark; .
+
+    <h1>@ViewData["Title"]</h1>
+
+    <p>Use this page to detail your site's privacy policy.</p>
+    <br />

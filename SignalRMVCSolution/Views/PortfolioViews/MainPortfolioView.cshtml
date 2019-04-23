@@ -1,0 +1,19 @@
+﻿@model IEnumerable<DummyDataCls>
+@{
+    Layout = "_Layout";
+}
+
+<div>
+
+
+
+    @if (@Model.Count<DummyDataCls>() == 0)
+    {
+        @await Html.PartialAsync("~/Views/PortfolioViews/PortfolioReadRecordList.cshtml");
+    }
+    else
+    {
+        @await Html.PartialAsync("~/Views/PortfolioViews/PortfolioReadSingleRecord.cshtml");
+    }
+
+</div>

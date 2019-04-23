@@ -1,0 +1,8 @@
+{
+  "ConnectionStrings": {
+    "InstrumentDataContext": "Server=(localdb)\\mssqllocaldb;Database=SignalRMVCSolution;Trusted_Connection=True;"
+  },
+  "EnvironmentConfig": {
+    "EnableDeveloperException": true
+  }
+}

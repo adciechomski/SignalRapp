@@ -1,0 +1,10 @@
+﻿@model IEnumerable<DummyDataCls>
+
+<h1>List of instruments:</h1>
+    @foreach (var group in Model)
+    {
+        <section>
+            <header>Group No is @group.Id</header>
+        </section>
+    }
+

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalRMVCSolution", "SignalRMVCSolution\SignalRMVCSolution.csproj", "{B4147834-351C-485D-AA27-C0EB5FE880F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4147834-351C-485D-AA27-C0EB5FE880F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4147834-351C-485D-AA27-C0EB5FE880F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4147834-351C-485D-AA27-C0EB5FE880F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4147834-351C-485D-AA27-C0EB5FE880F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8E6BC23-8C24-4433-9DCB-AEF5BD8FAC8B}
+	EndGlobalSection
+EndGlobal
